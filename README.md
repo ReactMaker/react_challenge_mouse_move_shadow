@@ -1,6 +1,10 @@
-# Simple React Start Kit 2017
+# React Mouse Move
 
-這個環境包可以讓你快速體驗 ReactJS 開發環境的便利，我們並沒有在裏面放入太多套件(例如 redux, karma)，希望可以讓你用最簡單的環境開始學習 React
+用 ReactJS 來監聽滑鼠移動的事件，當游標停止超過一秒鐘，寶貝球就會往游標飄移過去。
+
+## [DEMO](https://reactmaker.github.io/react_challenge_mouse_move_shadow/)
+
+![Imgur](http://i.imgur.com/sZKWW4h.gif)
 
 ## 特色
 
