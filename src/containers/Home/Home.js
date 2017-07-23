@@ -9,10 +9,10 @@ export default class Home extends Component {
   };
 
   onMouseMove = (e) => {
-    const self = this;
+    // const self = this;
     clearTimeout(this.timeout);
     this.timeout = setTimeout(() => {
-      self.updatePosition(e.clientX, e.clientY);
+      this.updatePosition(e.clientX, e.clientY);
     }, 1000);
     e.persist();
   };
